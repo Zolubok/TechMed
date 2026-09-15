@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(39, 146, 179);
+    text-align: center;
+}
+.ap {
+    text-align: center;
+}
+.linha-separadora {
+  border: none;
+  height: 2px;
+  background-color: #817f7f;
+  margin: 20px 0;
+}
+.branco {
+    background-color: antiquewhite;
+}
+.verde {
+    background-color: rgb(39, 146, 179) ;
+}
