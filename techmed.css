@@ -1,8 +1,13 @@
 h1 {
     margin-top: auto;
-    color: rgb(39, 146, 179);
+    color: #7FC0FA;
     text-align: center;
     font-size: 48px;
+}
+h2 {
+    color: #14243A;
+    text-align: center;
+    font-size: 36px;
 }
 .ap {
     text-align: center;
@@ -18,5 +23,30 @@ h1 {
     background-color: antiquewhite;
 }
 .verde {
-    background-color: rgb(39, 146, 179) ;
+    background-color: #7FC0FA ;
+}
+.caixa-selecao{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.caixa-selecao:checked {
+    background-color: #14243A;
+}
+.sintomas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 10px;
+}
+.sintomas label {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
 }

@@ -23,50 +23,62 @@
             Somos um grupo de estudantes
             do integrado UPF da trilha de inovação
         </p>
-        <h2>
+        <ul><h2>
             Sobre o projeto
         </h2>
-        <p>
+        <li><p>
             Inserir texto  do Pedro
-        </p>
-        <h2>
+        </p></li></ul>
+        <ul><h2>
             Auto diagnostico
         </h2>
-        <p>
+        <li><p>
             Aqui você pode marcar os seus sintomas e nosso algorito vai tentar te dar um 
             diagnostico.<br>
             ATENÇÃO: o site tem apenas um previsão, considere sempre consultar um médico, feito
             apenas para fins educacionais.
-        </p>
+        </li></p></ul>
         <h5>Sintomas(marque todos que aplicam)</h3>
-        <input type="checkbox" placeholder="Fadiga">Fadiga
-        <input type="checkbox" placeholder="Dor de Cabeça">Dor de Cabeça
-        <input type="checkbox" placeholder="Falta de ar">Falta de ar
-        <br>
-        <input type="checkbox" placeholder="Fraqueza">Fraqueza
-        <input type="checkbox" placeholder="Insonia">Insonia
-        <input type="checkbox" placeholder="Dor">Dor localizada
-        <br>
-        <input type="checkbox" placeholder="Nausea">Nausea
-        <input type="checkbox" placeholder="Perda de peso repentina">Perda de peso repentina
-        <input type="checkbox" placeholder="Confusão">confusão
-        <br>
-        <input type="checkbox" placeholder="Perda apetite">Perda de apetite
-        <input type="checkbox" placeholder="Tontura">Tontura
-        <input type="checkbox" placeholder="Vomitos">Vômitos
-        <br>
-        <input type="checkbox" placeholder="Inchaco">Inchaço
-        <input type="checkbox" placeholder="Alucinacao">Alucinação
-        <input type="checkbox" placeholder="Humor">Alterações de Humor
-        <br>
-        <input type="checkbox" placeholder="Tosse">Tosse
-
+        <div class="sintomas" >
+            <label><input type="checkbox" placeholder="Fadiga" class="caixa-selecao">Fadiga
+            </label>
+            <label><input type="checkbox" placeholder="Dor de Cabeça" class="caixa-selecao">Dor de Cabeça
+            </label>
+            <label><input type="checkbox" placeholder="Falta de ar" class="caixa-selecao">Falta de ar  
+            </label>
+            <label><input type="checkbox" placeholder="Fraqueza" class="caixa-selecao">Fraqueza
+            </label>
+            <label><input type="checkbox" placeholder="Insonia" class="caixa-selecao">Insonia
+            </label>
+            <label><input type="checkbox" placeholder="Dor" class="caixa-selecao">Dor localizada
+            </label>
+            <label><input type="checkbox" placeholder="Nausea" class="caixa-selecao">Nausea
+            </label>
+            <label><input type="checkbox" placeholder="Perda de peso repentina" class="caixa-selecao">Perda de peso repentina
+            </label>
+            <label><input type="checkbox" placeholder="Confusão" class="caixa-selecao">confusão
+            </label>
+            <label><input type="checkbox" placeholder="Perda apetite" class="caixa-selecao">Perda de apetite
+            </label>
+            <label><input type="checkbox" placeholder="Tontura" class="caixa-selecao">Tontura
+            </label>
+            <label><input type="checkbox" placeholder="Vomitos" class="caixa-selecao">Vômitos
+            </label>
+            <label><input type="checkbox" placeholder="Inchaco" class="caixa-selecao">Inchaço
+            </label>
+            <label><input type="checkbox" placeholder="Alucinacao" class="caixa-selecao">Alucinação
+            </label>    
+            <label><input type="checkbox" placeholder="Humor" class="caixa-selecao">Alterações de Humor
+            </label>
+            <label><input type="checkbox" placeholder="Tosse" class="caixa-selecao">Tosse
+            </label>
+        </div>
         <h2> 
             Remédios
         </h2>
     
     <p><input type="text" id="meuInput" class="caixa-texto" placeholder="Quais remédios quer consultar?"> 
-    <button onclick="coletar_respostas(2)">
+    <button onclick="coletar()">
         Enviar
     </button></p>
     

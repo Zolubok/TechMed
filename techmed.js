@@ -1,5 +1,5 @@
 function coletar() {
-    let campo = ducuments.getElementsById('meuInput') ;
-    let resposta = campo.value ;
-    alert(resposta)
+    let campo = document.getElementById('meuInput');
+    let resposta = campo.value;
+    alert(resposta) ;
 }
