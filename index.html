@@ -80,14 +80,21 @@ para sua condição.
                     <label><input type="checkbox" placeholder="Tosse" class="caixa-selecao">Tosse
                     </label>
                 </div>
+                <p>
+                    <button class="botao" onclick="document.getElementById('resultado').textContent = diagnosticar()">
+                        Diagnosticar
+                    </button>
+                </p>
+                <p id="resultado"></p>
                 <h2> 
                     Remédios
                 </h2>
             
             <p><input class="input" type="text" id="meuInput" class="caixa-texto" placeholder="Quais remédios quer consultar?"> 
-            <button class="botao" onclick="coletar()">
+            <button class="botao" onclick="document.getElementById('resultadoRemedio').textContent = consultarRemedio()">
                 Enviar
             </button></p>
+            <p id="resultadoRemedio"></p>
         </div>
     <script src="techmed.js"></script>
     </div>
