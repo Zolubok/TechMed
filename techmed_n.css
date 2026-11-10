@@ -1,0 +1,75 @@
+h1 {
+    margin-top: auto;
+    color: #7FC0FA;
+    text-align: center;
+    font-size: 48px;
+}
+h2 {
+    color: #14243A;
+    text-align: center;
+    font-size: 36px;
+}
+.ap {
+    text-align: center;
+    font-size: 28px;
+}
+.linha-separadora {
+  border: none;
+  height: 2px;
+  background-color: #817f7f;
+  margin: 20px 0;
+}
+.branco {
+    background-color: antiquewhite;
+}
+.verde {
+    background-color: #7FC0FA ;
+}
+.caixa-selecao{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.caixa-selecao:checked {
+    background-color: #14243A;
+}
+.sintomas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 10px;
+}
+.sintomas label {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+.input {
+  position: relative;
+  margin: 20px 0;
+  width: 300px;
+}
+.input input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.botao {
+    background-color: antiquewhite ;
+    border-radius: 4px;
+}
+.margem {
+    margin-left: 20px;
+}
